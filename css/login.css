@@ -1,0 +1,111 @@
+.seccion_general{
+    width: 350px;
+    height: 500px;
+}
+.logo{
+    width: 15rem;
+    height: 15rem;
+    margin-left: 9rem;
+    margin-top: 7rem;
+}
+.logo img{
+    width: 15rem;
+    height: 15rem;
+    margin: 2.3rem;
+}
+
+.formulario form{
+    padding: 0 3.5rem;
+    box-sizing: border-box;
+    margin-top: 7rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form .username{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 1.5rem 0;
+}
+.username input{
+    width: 100%;
+    padding: 0 5px;
+    height: 50px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+.username label{
+    position: absolute;
+    top: 50%;
+    color: rgb(130, 128, 128);
+    font-size: 15px;
+    pointer-events: none;
+}
+
+form .contraseña{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 1.5rem 0;
+}
+.contraseña input{
+    width: 100%;
+    padding: 0 5px;
+    height: 50px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+.contraseña label{
+    position: absolute;
+    top: 50%;
+    color: rgb(130, 128, 128);
+    font-size: 15px;
+    pointer-events: none;
+}
+
+.username input:focus ~ label,
+.username input:focus ~ label{
+    top: -9px;
+    color: black;
+}
+.username input:focus ~ span::before,
+.username input:focus ~ span::before{
+    width: 100%;
+}
+.contraseña input:focus ~ label,
+.contraseña input:focus ~ label{
+    top: -9px;
+    color: black;
+}
+.contraseña input:focus ~ span::before,
+.contraseña input:focus ~ span::before{
+    width: 100%;
+}
+.recordar{
+    margin-left: 11.5rem;
+    color: rgb(130, 128, 128);
+    cursor: pointer;
+    font-size: 15px;
+}
+.recordar:hover{
+    text-decoration: underline;
+}
+.bt_login{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin: auto;
+    width: 26rem;
+    height: 38px;
+    background: #d9502ade;
+    border-radius: 17px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+
+    margin-top: 6rem;
+    border-color: black;
+    transition: .5s;
+}
